@@ -43,12 +43,9 @@ header{
   max-width: 1160px;
   margin: 0 auto;
 }
-main,footer{
-  max-width: 1440px;
-  margin: 0 auto;
-}
+
 main>section{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 
@@ -343,10 +340,7 @@ main>section{
     gap: 10px;
  }
  
- .logo-img2{
-    width: 80px;
-    height: 100px;
- }
+
 
  .footer-container{
   
@@ -382,6 +376,11 @@ main>section{
     text-align:start; width: 300px ; font-size: 1rem;
   }
 
+  .logo-title1{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
 /* responsive for mobile devices */
 
 @media screen and (max-width:576px) {
@@ -397,9 +396,7 @@ main>section{
   .hamburger{
     display: block;
   }
-  .logo-img{
-    width: 70%;
-  }
+
 
   .hr {
    display: block;
